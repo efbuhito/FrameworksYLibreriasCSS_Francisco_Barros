@@ -1,0 +1,18 @@
+body{
+  background: #222222;
+}
+.container{
+  background: #DDDDDD;
+}
+.barra{
+  background: #000000;
+  color: #FFFFFF;
+}
+.derecha{
+  background: #BBBBBB;
+}
+@media (max-width:768px){
+  .derecha{
+    display: none;
+  }
+}
