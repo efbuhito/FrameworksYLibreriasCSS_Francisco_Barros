@@ -1,8 +1,21 @@
 body{
   background: #222222;
 }
+p{
+  font-size:0.75em;
+}
+a:hover{
+  text-decoration: none;
+}
 .container{
   background: #DDDDDD;
+}
+.redes-sociales{
+  margin-top: 60px;
+}
+.img-social{
+  width: 30px;
+  height: 30px;
 }
 .barra{
   background: #000000;
@@ -11,8 +24,20 @@ body{
 .derecha{
   background: #BBBBBB;
 }
+.imagen{
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+}
+.list-group{
+  padding: 5px;
+}
 @media (max-width:768px){
   .derecha{
     display: none;
+  }
+  .redes-sociales{
+    margin: auto;
+    padding: 5px;
   }
 }
